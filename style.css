@@ -32,13 +32,11 @@ body {
 .iconleft {
   height: 24px;
   width: 24px;
-  stroke: #087f5b;
   display: grid;
 }
 .iconright {
   height: 24px;
   width: 24px;
-  stroke: #087f5b;
 }
 
 .pagination {
