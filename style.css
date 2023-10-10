@@ -17,8 +17,8 @@ body {
 .icon {
   background-color: #fff;
   border: 1.5px solid #087f5b;
-  height: 40px;
-  width: 40px;
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
   stroke: #087f5b;
   cursor: pointer;
@@ -32,11 +32,13 @@ body {
 .iconleft {
   height: 24px;
   width: 24px;
+  stroke: #087f5b;
   display: grid;
 }
 .iconright {
   height: 24px;
   width: 24px;
+  stroke: #087f5b;
 }
 
 .pagination {
