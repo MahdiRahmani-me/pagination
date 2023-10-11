@@ -3,7 +3,7 @@
 }
 body {
   background-color: aliceblue;
-  font-family: "Inter" "sans-serif";
+  font-family: "Inter", "sans-serif";
   display: flex;
   justify-content: center;
 }
@@ -15,7 +15,7 @@ body {
   gap: 20px;
 }
 .icon {
-  background-color: #fff;
+  background: #fff;
   border: 1.5px solid #087f5b;
   height: 48px;
   width: 48px;
@@ -28,6 +28,7 @@ body {
 }
 .icon:hover {
   background-color: #087f5b;
+  color: #fff;
 }
 .iconleft {
   height: 24px;
@@ -51,6 +52,9 @@ a {
   color: black;
   float: left;
   padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .pagination a {
   height: 36px;
@@ -59,6 +63,7 @@ a {
 }
 .pagination a:hover {
   background-color: #087f5b;
+  color: #fff;
 }
 .pagination a:hover:not(.active) {
   background-color: #087f5b;
